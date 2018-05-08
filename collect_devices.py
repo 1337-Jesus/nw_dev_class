@@ -7,7 +7,7 @@ class NETWORK_DEVICES:
 		self.mgmt_ip = mgmt_ip
 		NETWORK_DEVICES.device_counter += 1 #class variable gets altered
 	def remove(self, name):
-		print('You have removed{0}'.format(self.name)
+		print('You have removed {0}'.format(self.name))
 		NETWORK_DEVICES.device_counter -= 1 #class variable gets altered
 
 dev1 = NETWORK_DEVICES('core_hungen_1', 'cisco', 'switch', '10.255.7.130')
